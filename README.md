@@ -18,13 +18,11 @@
 
  📌
 
- pkg update -y
+ apt update -y
 
- pkg upgrade -y
+ apt install git
 
- pkg install git
-
- clone git
+ git clone
  https://github.com/rajkumardusad/onex.git
 
  chmod +x onex/install
